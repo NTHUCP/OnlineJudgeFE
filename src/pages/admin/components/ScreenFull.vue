@@ -31,7 +31,7 @@ export default {
   },
   methods: {
     click () {
-      if (!screenfull.enabled) {
+      if (!screenfull.isEnabled) {
         this.$warning('Your browser doesn\'t support fullscreen')
         return false
       }
