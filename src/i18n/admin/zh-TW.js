@@ -89,6 +89,13 @@ export const m = {
   Score: '分數',
   Hint: '提示',
   Source: '來源',
+  Edit_Problem: '編輯問題',
+  Add_Problem: '新增問題',
+  High: '高',
+  Mid: '中',
+  Low: '低',
+  Tag: '標籤',
+  New_Tag: '新增標籤',
   // Contest.vue
   ContestTitle: '標題',
   ContestDescription: '描述',

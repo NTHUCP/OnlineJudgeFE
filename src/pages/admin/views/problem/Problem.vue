@@ -197,7 +197,7 @@
           <el-col :span="6">
             <el-form-item :label="$t('m.TestCase')" :error="error.testcase">
               <el-upload
-                action="/api/admin/test_case"
+                action="/oj/api/admin/test_case"
                 name="file"
                 :data="{spj: problem.spj}"
                 :show-file-list="true"
@@ -378,6 +378,7 @@
           })
         } else {
           this.title = this.$i18n.t('m.Add_Problem')
+          console.log(this.title)
           for (let item of allLanguage.languages) {
             this.problem.languages.push(item.name)
           }

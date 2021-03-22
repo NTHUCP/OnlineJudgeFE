@@ -10,6 +10,7 @@ Vue.use(VueRouter)
 
 const router = new VueRouter({
   mode: 'history',
+  base: '/oj',
   scrollBehavior (to, from, savedPosition) {
     if (savedPosition) {
       return savedPosition

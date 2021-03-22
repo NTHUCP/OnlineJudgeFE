@@ -34,7 +34,7 @@
         pasteImage: true,
         markdown: false,
         upload: {
-          url: '/api/admin/upload_image/',
+          url: '/oj/api/admin/upload_image/',
           params: null,
           fileKey: 'image',
           connectionCount: 3,
